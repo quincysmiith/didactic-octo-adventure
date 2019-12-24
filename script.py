@@ -5,13 +5,13 @@ import uuid
 import os
 
 
-template_env = Environment(loader=FileSystemLoader(searchpath='./'))
-template = template_env.get_template('layout.html')
+template_env = Environment(loader=FileSystemLoader(searchpath='./layouts/'))
+template = template_env.get_template('panalysis-skeleton-layout.html')
 
 with open('example.md') as markdown_file:
     article = markdown(
         markdown_file.read(),
-        extras=['fenced-code-blocks', 'code-friendly'])
+        extras=['fenced-code-blocks', 'code-friendly', 'tables'])
 
 filename = str(uuid.uuid4()) + '.html'
 

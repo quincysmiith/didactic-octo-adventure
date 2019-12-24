@@ -17,3 +17,13 @@ We work to create relationships with the top 20% in our specialist technology se
 ### All graphs should be like this
 
 ![another picture](https://storage.googleapis.com/marquin-public-bucket-01/increasing-stocks-graphic.png)
+
+
+#### and tables like this
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
