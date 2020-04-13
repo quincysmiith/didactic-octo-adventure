@@ -9,6 +9,7 @@ verify_ssl = true
 jinja2 = "*"
 markdown2 = "*"
 markupsafe = "*"
+click = "*"
 
 [requires]
 python_version = "3.7"
