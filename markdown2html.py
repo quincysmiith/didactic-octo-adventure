@@ -7,7 +7,7 @@ import click
 
 @click.command()
 @click.argument("file_path_of_markdown_to_convert")
-@click.option("--layout", default='marquin-skeleton-layout.html', help='The base html file to build the markdown file into')
+@click.option("--layout", default='marquincv-skeleton-layout.html', help='The base html file to build the markdown file into')
 def make_html(file_path_of_markdown_to_convert, layout):
     template_env = Environment(loader=FileSystemLoader(searchpath='./layouts/'))
     template = template_env.get_template(layout)

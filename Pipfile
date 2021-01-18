@@ -10,6 +10,7 @@ jinja2 = "*"
 markdown2 = "*"
 markupsafe = "*"
 click = "*"
+pygments = "*"
 
 [requires]
 python_version = "3.7"
